@@ -140,29 +140,29 @@ input.openid {
 }
 
 /*Styles required for sticky notes*/
-.dashboard *{
+#dashboard *{
   margin:0;
   padding:0;
 }
-.dashboard body{
+#dashboard body{
   font-family:arial,sans-serif;
   font-size:100%;
   margin:3em;
   background:#666;
   color:#fff;
 }
-.dashboard h2,p{
+#dashboard h2,p{
   font-size:100%;
   font-weight:normal;
 }
-.dashboard ul,li{
+#dashboard ul,li{
   list-style:none;
 }
-.dashboard ul{
+#dashboard ul{
   overflow:hidden;
   padding:3em;
 }
-.dashboard ul li a{
+#dashboard ul li a{
   text-decoration:none;
   color:#000;
   background:#ffc;
@@ -171,22 +171,22 @@ input.openid {
   width:10em;
   padding:1em;
 }
-.dashboard ul li{
+#dashboard ul li{
   margin:1.4em;
   float:left;
 }
 
-.dashboard ul li h2{
+#dashboard ul li h2{
   font-size:140%;
   font-weight:bold;
   padding-bottom:10px;
 }
-.dashboard ul li p{
+#dashboard ul li p{
   font-family:"Reenie Beanie",arial,sans-serif;
   font-size:180%;
 }
 /*Add shadow to sticky notes*/
-.dashboard ul li a{
+#dashboard ul li a{
   text-decoration:none;
   color:#000;
   background:#ffc;
@@ -202,26 +202,26 @@ input.openid {
   box-shadow: 5px 5px 7px rgba(33,33,33,.7);
 }
 /*Tilt sticky notes randomly*/
-.dashboard ul li a{
+#dashboard ul li a{
   -webkit-transform:rotate(-6deg);
   -o-transform:rotate(-6deg);
   -moz-transform:rotate(-6deg);
 }
-.dashboard ul li:nth-child(even) a{
+#dashboard ul li:nth-child(even) a{
   -o-transform:rotate(4deg);
   -webkit-transform:rotate(4deg);
   -moz-transform:rotate(4deg);
   position:relative;
   top:5px;
 }
-.dashboard ul li:nth-child(3n) a{
+#dashboard ul li:nth-child(3n) a{
   -o-transform:rotate(-3deg);
   -webkit-transform:rotate(-3deg);
   -moz-transform:rotate(-3deg);
   position:relative;
   top:-5px;
 }
-.dashboard ul li:nth-child(5n) a{
+#dashboard ul li:nth-child(5n) a{
   -o-transform:rotate(5deg);
   -webkit-transform:rotate(5deg);
   -moz-transform:rotate(5deg);
@@ -229,7 +229,7 @@ input.openid {
   top:-10px;
 }
 /*Zoom sticky notes on focus*/
-.dashboard ul li a:hover,ul li a:focus{
+#dashboard ul li a:hover,ul li a:focus{
   -moz-box-shadow:10px 10px 7px rgba(0,0,0,.7);
   -webkit-box-shadow: 10px 10px 7px rgba(0,0,0,.7);
   box-shadow:10px 10px 7px rgba(0,0,0,.7);
@@ -240,7 +240,7 @@ input.openid {
   z-index:5;
 }
 /*Smooth the zoom action*/
-.dashboard ul li a{
+#dashboard ul li a{
   text-decoration:none;
   color:#000;
   background:#ffc;

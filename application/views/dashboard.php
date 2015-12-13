@@ -35,7 +35,7 @@
         </div>
 
         <div class="span12">
-          <div class="dashboard">
+          <div id="dashboard">
            <ul>
   <li>
     <a href="#">
