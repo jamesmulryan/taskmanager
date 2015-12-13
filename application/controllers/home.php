@@ -23,6 +23,19 @@ class Home extends CI_Controller {
 
 		$this->load->view('home', isset($data) ? $data : NULL);
 	}
+	
+	
+		function dashboard()
+	{
+		maintain_ssl();
+
+		if ($this->authentication->is_signed_in())
+		{
+			$data['account'] = $this->account_model->get_by_id($this->session->userdata('account_id'));
+		}
+
+		$this->load->view('dashboard', isset($data) ? $data : NULL);
+	}
 
 }
 

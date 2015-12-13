@@ -10,7 +10,7 @@
             <div class="nav-collapse collapse">
                 <ul class="nav">
                     <li class="divider-vertical"></li>
-                    <li><?php echo anchor('', 'Tasks'); ?></li>
+                    <li><?php echo anchor('home/dashboard', 'Dashboard'); ?></li>
                     <li><?php echo anchor('', 'Create new task'); ?></li>
                 </ul>
 

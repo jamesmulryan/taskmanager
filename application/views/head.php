@@ -20,3 +20,10 @@
 <!--[if lt IE 9]>
   <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
+
+<!--Font for sticky notes-->
+
+<link  href="http://fonts.googleapis.com/css?
+family=Reenie+Beanie:regular" 
+rel="stylesheet"
+type="text/css">
