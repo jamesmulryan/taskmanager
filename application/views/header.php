@@ -10,8 +10,8 @@
             <div class="nav-collapse collapse">
                 <ul class="nav">
                     <li class="divider-vertical"></li>
-                    <li><?php echo anchor('home/dashboard', 'Dashboard'); ?></li>
-                    <li><?php echo anchor('', 'Create new task'); ?></li>
+                    <li><?php echo anchor('tasks/dashboard', 'Dashboard'); ?></li>
+                    <li><?php echo anchor('tasks/new', 'Create new task'); ?></li>
                 </ul>
 
                 <ul class="nav pull-right">
